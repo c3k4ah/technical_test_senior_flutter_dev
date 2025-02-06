@@ -1,0 +1,59 @@
+name: todo
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+#  cause i use flutter web i need a device preview directly in my browser
+  device_preview: ^1.2.0
+  objectbox: ^4.0.3
+  dio: ^5.7.0
+
+  #--State managment
+  flutter_bloc: ^9.0.0
+  get_it: ^8.0.3
+  equatable: ^2.0.7
+  dartz: ^0.10.1
+  provider: ^6.0.5
+  path: ^1.8.3
+  path_provider: ^2.1.1
+  auto_route: ^9.3.0+1
+  objectbox_flutter_libs: any
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  objectbox_generator: any
+  auto_route_generator:
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.13
+  mockito: ^5.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
