@@ -32,7 +32,7 @@ You need to develop a small mobile application for personal task management. The
 
 ## Technical Requirements
 
-- Use **Flutter Bloc** for state management.
+- [x] Use **Flutter Bloc** for state management.
 - [x] Implement a **Clean Architecture** approach (domain, data, presentation).
 - [x] Validate input fields (e.g., title should not be empty).
 - [ ] Use **Dio** to simulate an API returning a pre-filled list of tasks when the app starts.
